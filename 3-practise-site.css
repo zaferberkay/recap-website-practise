@@ -1,0 +1,169 @@
+*/{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: "Open Sans";
+    font: 600;
+    
+}
+
+.bodydiv{
+    
+    background-image: url(./img/banner.jpg)  ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    /* -webkit-background-size: 1440px 1800px; */
+    background-size: cover;
+    overflow: auto;
+
+    
+}
+
+
+nav.nav-top {
+    background-image: linear-gradient(to right, rgb(216, 182, 182), rgba(190, 74, 99, 0.775) );
+    padding: 0.5rem;
+    color: white
+}
+
+
+nav.nav-top img {
+    width: 50px;
+    border: 1px solid rgb(171, 24, 24);
+    outline: 3px solid red;
+    outline-offset: 3px;
+}
+
+nav.nav-top .sign-in {
+    float: right;
+    margin: 1.5rem 1rem;
+    color: white;
+    font-weight: 700;
+}
+
+
+nav.nav-top .sign-in a {
+    color: white;
+    text-decoration: none;
+}
+
+nav.nav-top .sign-in a:hover {
+    color: black;
+}
+.clearfix {
+    clear: both;
+}
+
+/** NAV MAIN **/
+
+nav.nav-main {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: indianred;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "DynaPuff", cursive;
+}   
+
+nav.nav-main a {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+}
+
+nav.nav-main a:hover {
+    color: darkgray;
+}
+
+main {
+    color:rgba(250, 113, 64, 0.603);
+    /* font-weight: 700; */
+    padding: 2rem;
+    font-family: "DynaPuff", cursive;
+    text-align: justify;
+}
+
+.slack {
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.2rem;
+  }
+  
+  .slack i:hover {
+    color: black;
+    font-weight: 600;
+  }
+
+
+  footer {
+    /* border: 2px solid red; */
+    background-color: lightcoral;
+    font-family: "DynaPuff", cursive;
+    
+  }
+  
+
+ 
+  .courses{
+    /* border: 2px solid red; */
+    width: 35rem;
+    height: 15rem;
+    margin-left: 8rem;
+    
+    
+
+    
+
+  }
+  
+  .courses ul li {
+    list-style-type: circle;
+    padding-bottom: 1rem;
+  }
+
+  .courses ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+.contact {
+    /* border: 2px solid red; */
+    width: 35rem;
+    height: 20rem;
+    display: flex;
+    margin-left: 40rem ;
+    margin-top: -16rem;
+    
+}
+.contactinfo{
+    margin-top: 5rem;
+    
+    
+    
+}
+
+.contactinfo span {
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+ 
+
+span i {
+    margin-right: 0.8rem;
+}
+
